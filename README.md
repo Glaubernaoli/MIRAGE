@@ -7,22 +7,20 @@
 ### Aprendizado de Máquina -  Prof. Dr. Daniel Cassar
 
  <h4 align="center"> 
-    🚧  Projeto em construição 🚧
+    🚧  Projeto em construção 🚧
 </h4>
 
 ## 💡 Descrição
 ### Modelo preditivo do tempo de sobrevida de pacientes com câncer de pulmão de células não pequenas.
 
-## 🔨 Funcionalidades do projeto
-### `Genome_identifier` - Recebe uma sequência de nucleotídeos, se possui Timina e se é uma fita negativa de RNA. Retorna os aminoácidos correspondentes e os gráficos.
+## 🔨 Notebooks do projeto
+### `Estudando o Target` - 
 
-### `Trancrição`: Caso o códon possua Timina, identifique-o e ele será transcrito para Uracila.
+### `Escolha de hiperparâmetros e atributos para o modelo classificador`:
 
-### `Contagem de aminoácidos em uma sequência de nucleotídeos`: Através de uma lista com os nucleotídeos escolhidos, o código conta, respeitando os codons de iníciação e de parada, os aminoácidos presentes nessa lista.<br> 
+### `Escolha de  hiperparâmetros e atributos para o modelo regresor`: Através de uma lista com os nucleotídeos escolhidos, o código conta, respeitando os codons de iníciação e de parada, os aminoácidos presentes nessa lista.<br> 
 
-### `Plotagem de gráficos quantitativos`: Um gráfico em barras é plotado, com os dados obtidos na contagem de aminoácidos, comparando a quantidade de todos os aminoácidos presentes.
-
-### `Plotagem de gráficos quantitativos`: Um gráfico de pizza é plotado para mostrar a quantidade de aminoácidos com a mesma característica.
+### `Predição de sobrevida - A história`:
 
 ## 🪛 Funcionalidades embutidas
 
