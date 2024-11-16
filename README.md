@@ -20,9 +20,11 @@
 Este projeto se baseia em um conjunto de modelos preditivos para encontrar o tempo de sobrevida de pacientes com câncer de pulmão de células não pequenas. Dessa forma, foi necessário o uso de um modelo classificador binário, que prevê se o paciente foi curado ou não, e caso não tenha sido curado, um modelo regressor, que prevê o tempo, em meses, de sobrevida deste paciente. O objetivo desse trabalho é auxiliar na urgência/intensificação de tratamento em pacientes com menos tempo de sobrevida.
 </div>
 
-<h2 align="left"> 📔 Notebooks do projeto </h2>
+<h2 align="left"> 📔 Notebooks e arquivos do projeto </h2>
 
 <div align="justify">
+
+`msk_met_2021_clinical_data (1) 1.tsv`: Dataset usado no trabalho, retirado da referência[<sub>1</sub>](10.1016/j.cell.2022.01.003)<br>
  
 `Estudando o Target`: Neste notebook, estudamos o dataset escolhido para a realização dos modelos. quais colunas usaremos como atributos e qual target escolhido.
 
@@ -31,6 +33,8 @@ Este projeto se baseia em um conjunto de modelos preditivos para encontrar o tem
 `Escolha de  hiperparâmetros e atributos para o modelo regresor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
 
 `Predição de sobrevida - A história`: Neste notebook, apresentamos os melhores modelos treinados e teste de aplicação em um grupo pertencente no limiar de meses entre 53 e 62.
+
+
 </div>
 
 <h2 align="left"> 🤖 Modelos Usados </h2>
@@ -72,7 +76,7 @@ Depois de baixar o projeto você deve abrí-lo no Jupyter Notebook/VS code
 <div align="justify">
  
 #### 1.  Nguyen, B. et al. Genomic characterization of metastatic patterns from prospective clinical sequencing of 25,000 patients. Cell 185, 563-575.e11 (2022).
-#### 2.   Daniel R. Material de Aula, disciplina: Aprendizado de Máquina. 2024
+#### 2.  Daniel R. Material de Aula, disciplina: Aprendizado de Máquina. 2024
 #### 3. 
 #### 4.   
 
