@@ -1,6 +1,10 @@
-![ ILUM, CNPEM, MINISTÉRIO DA EDUCAÇÃO](https://github.com/Glaubernaoli/PCD---GenomeIdentifier/assets/172425065/bcfc56a4-b124-4988-88b4-e860cb438f27)
+<div align="center">
 
-<h1 align="center"> MIRAGE - Projeto Aprendizado de Máquina 2024.2 </h1>
+<img loading="lazy" src="https://github.com/user-attachments/assets/9e4a0523-4f7b-4476-8a75-bc8d9ed47e5b" width=800>
+
+</div>
+
+<h1 align="center"> Previsão de Sobrevida em Câncer de Pulmão: Integração de Modelos Binários e Regressivos </h1>
 
 ### Projeto Aprendizado de Máquina, Turma 2024
 ### Colaboradores: Glauber Nascimento, Rafael Anis e Maria Emily Gomes  
@@ -10,55 +14,86 @@
     🚧  Projeto em construção 🚧
 </h4>
 
-## 💡 Descrição
-### Modelo preditivo do tempo de sobrevida de pacientes com câncer de pulmão de células não pequenas.
+<h2 align="left"> 💡 Descrição </h2>
 
-## 🔨 Notebooks do projeto
-### `Estudando o Target` - 
+<div align="justify">
+Este projeto se baseia em um conjunto de modelos preditivos para encontrar o tempo de sobrevida de pacientes com câncer de pulmão de células não pequenas. Dessa forma, foi necessário o uso de um modelo classificador binário, que prevê se o paciente foi curado ou não, e caso não tenha sido curado, um modelo regressor, que prevê o tempo, em meses, de sobrevida deste paciente. O objetivo desse trabalho é auxiliar na urgência/intensificação de tratamento em pacientes com menos tempo de sobrevida.
+</div>
 
-### `Escolha de hiperparâmetros e atributos para o modelo classificador`:
+<h2 align="left"> 📔 Notebooks do projeto </h2>
 
-### `Escolha de  hiperparâmetros e atributos para o modelo regresor`: Através de uma lista com os nucleotídeos escolhidos, o código conta, respeitando os codons de iníciação e de parada, os aminoácidos presentes nessa lista.<br> 
+<div align="justify">
+ 
+`Estudando o Target`: Neste notebook, estudamos o dataset escolhido para a realização dos modelos. quais colunas usaremos como atributos e qual target escolhido.
 
-### `Predição de sobrevida - A história`:
+`Escolha de hiperparâmetros e atributos para o modelo classificador`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo classificador binário, onde ele prevê se o paciente foi curado, ou não.
 
-## 🪛 Funcionalidades embutidas
+`Escolha de  hiperparâmetros e atributos para o modelo regresor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
 
-### `tratamento_str` - Recebe como argumento uma string. Retorna sem números, espaços e os caracteres maiúsculos
-### `neg_transcription` - Recebe com argumento uma fita de rna negativa. Retona uma positiva
-### `onde_esta_aug` - Recebe como argumento uma sequência de nucleotídeos e se DNA = True, ele troca as Timinas por Uracilas. Retorna a sequência de RNA a partir do códon de início `AUG`.
-### `id_aminoacidos` - Recebe uma sequência de códons como argumento. Retorna uma sequência de aminoácidos.
-### `ocorencias_aminoacidos` - Recebe uma sequência de aminoácidos. Retorna uma biblioteca com a quantidade de vezes que um aminoácidos apareceu.
-### `grafico_ocorrencias` - Recebe o dicionário com as ocorrências de cada aminoácido. Retorna um gráfico interativo com os dados.
+`Predição de sobrevida - A história`: Neste notebook, apresentamos os melhores modelos treinados e teste de aplicação em um grupo pertencente no limiar de meses entre 53 e 62.
+</div>
 
-## 📁 Acesso ao projeto
+<h2 align="left"> 🤖 Modelos Usados </h2>
 
-### Você pode acessar o código pelo github ou, preferencialmente, baixá-lo.
+<div align="justify">
 
-## 🛠️ Abrir e rodar o projeto
+`Classificador binário Floresta Aleatória`: Este modelo classifica os dados em Curados e Não-Curados. EXPLICAR COMO FUNCIONA QUANDO DECIDIR
 
-### Depois de baixar o projeto você deve abrí-lo no Jupyter Notebook
+`Floresta Aleatória Regressora`: Este modelo retorna o target do tempo de sobrevida, em meses, do paciente. Este modelo possui diversas árvores de decisão e é aleatório pois a fomração dessas árvores depende da amostragem dos atributos.
 
-## 📓 Linguagens e programas usados 
+</div>
 
-#### `Python`, `Jupyter Notebook`, `VS Code`, `Matplotlib`, `Scikit Learn`, `Numpy`, `Pandas` 
-##
-## 📖 Referências
-#### 1.  ALURA. Como escrever um bom README para seu projeto no GitHub. Disponível em: https://www.alura.com.br/artigos/escrever-bom-readme. Acesso em: 11 jun. 2024.
-#### 2.  ROCKETSEAT. Como fazer um bom README. Disponível em: https://blog.rocketseat.com.br/como-fazer-um-bom-readme/. Acesso em: 11 jun. 2024.
-#### 3.  PLOTLY Technologies Inc. Python API reference for Plotly. Disponível em: https://plotly.com/python/. Acesso em: 18 jun. 2024.
-#### 4.  OPENAI. ChatGPT (versão de 18 de junho). Disponível em: https://www.openai.com/chatgpt. Acesso em: 18 jun. 2024. 
+<h2 align="left"> 📁 Acesso ao projeto </h2>
 
+<div align="justify">
 
-##  :octocat:  Autores
+Você pode acessar o código pelo github ou, preferencialmente, baixá-lo.
 
+</div>
 
-| [<img loading="lazy" src="https://github.com/user-attachments/assets/e314fef8-e638-40ce-8ae1-8c7dab89b176" width=115><br> <sub>Rafael Anis </sub>](https://github.com/RafaelShaikhzadeh)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/3980352415504306)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/rafael-anis-shaikhzadeh-santos-a58843224/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/421a946a-dd10-4477-8f3f-e1a277d997b0" width=115><br><sub>Glauber Nascimento de Oliveira</sub>](https://github.com/Glaubernaoli)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/0913262665776521)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/glauber-naoli/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/f4fbc4f1-01e5-4bdb-bb67-e994982c6afa" width=115><br><sub> Maria Emily Nayla</sub>](https://github.com/MEmilyGomes)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/9482558334105708)<br> [<sub>Linkedin</sub>]() |
+<h2 align="left"> 🛠️ Abrir e rodar o projeto </h2>
+
+<div align="justify">
+
+Depois de baixar o projeto você deve abrí-lo no Jupyter Notebook/VS code
+
+</div>
+
+<h2 align="left"> 📓 Linguagens e programas usados </h2>
+
+<div align="justify">
+
+`Python`, `Jupyter Notebook`, `VS Code`, `Matplotlib`, `Scikit Learn`, `Numpy`, `Pandas` 
+
+</div>
+
+<h2 align="left"> 📖 Referências </h2>
+
+<div align="justify">
+ 
+#### 1.  Nguyen, B. et al. Genomic characterization of metastatic patterns from prospective clinical sequencing of 25,000 patients. Cell 185, 563-575.e11 (2022).
+#### 2.   Daniel R. Material de Aula, disciplina: Aprendizado de Máquina. 2024
+#### 3. 
+#### 4.   
+
+</div>
+
+<h2 align="center"> :octocat:  Autores </h2>
+
+<div align="center">
+ 
+| [<img loading="lazy" src="https://github.com/user-attachments/assets/e314fef8-e638-40ce-8ae1-8c7dab89b176" width=115><br> <sub>Rafael Anis </sub>](https://github.com/RafaelShaikhzadeh)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/3980352415504306)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/rafael-anis-shaikhzadeh-santos-a58843224/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/421a946a-dd10-4477-8f3f-e1a277d997b0" width=115><br><sub>Glauber Nascimento de Oliveira</sub>](https://github.com/Glaubernaoli)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/0913262665776521)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/glauber-naoli/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/40518e6c-b75f-496a-8fce-f5c4c1cb2684" width=115><br><sub> Maria Emily Nayla</sub>](https://github.com/MEmilyGomes)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/9482558334105708)<br> [<sub>Linkedin</sub>]() |
 | :---: | :---: | :---: |
+
+</div>
+
 
  #### `Contribuições` - Todos os autores construíram o código juntos e revisão geral.
  ##### `Glauber Nascimento` escreveu esse documento, revisado por `Rafael Anis` e `Maria Emily Gomes`
 
-![ILUM, CNPEM, MINISTÉRIO DA EDUCAÇÃO](https://github.com/Glaubernaoli/PCD---GenomeIdentifier/assets/172425065/6c9216ea-0cdb-4dac-aac5-445d505b2804)
+<div align="center">
+ 
+<img loading="lazy" src="https://github.com/user-attachments/assets/c4434633-7e0c-4f19-9fa3-4c4c64e35a46" width=800>
 
+</div>
 
