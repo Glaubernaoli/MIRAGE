@@ -76,7 +76,7 @@ Depois de baixar o projeto você deve abrí-lo no Jupyter Notebook/VS code
 <div align="justify">
  
 #### 1.  Nguyen, B. et al. Genomic characterization of metastatic patterns from prospective clinical sequencing of 25,000 patients. Cell 185, 563-575.e11 (2022).
-#### 2.  Daniel R. Material de Aula, disciplina: Aprendizado de Máquina. 2024
+#### 2.  Daniel Cassar, Material de Aula, disciplina: Aprendizado de Máquina. 2024 <br>
 #### 3. 
 #### 4.   
 
@@ -88,6 +88,15 @@ Depois de baixar o projeto você deve abrí-lo no Jupyter Notebook/VS code
  
 | [<img loading="lazy" src="https://github.com/user-attachments/assets/e314fef8-e638-40ce-8ae1-8c7dab89b176" width=115><br> <sub>Rafael Anis </sub>](https://github.com/RafaelShaikhzadeh)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/3980352415504306)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/rafael-anis-shaikhzadeh-santos-a58843224/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/421a946a-dd10-4477-8f3f-e1a277d997b0" width=115><br><sub>Glauber Nascimento de Oliveira</sub>](https://github.com/Glaubernaoli)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/0913262665776521)<br> [<sub>Linkedin</sub>](https://www.linkedin.com/in/glauber-naoli/) |  [<img loading="lazy" src="https://github.com/user-attachments/assets/40518e6c-b75f-496a-8fce-f5c4c1cb2684" width=115><br><sub> Maria Emily Nayla</sub>](https://github.com/MEmilyGomes)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/9482558334105708)<br> [<sub>Linkedin</sub>]() |
 | :---: | :---: | :---: |
+
+</div>
+
+<h2 align="center"> 👓  Orientação </h2>
+
+<div align="center">
+ 
+| [<img loading="lazy" src="https://github.com/user-attachments/assets/463d4753-7fa4-4a42-aa54-409e4150bb51" width=115><br> <sub>Daniel R. Cassar </sub>](https://github.com/drcassar)<br> [<sub>Currículo Lattes</sub>](http://lattes.cnpq.br/1717397276752482) | 
+| :---: | 
 
 </div>
 
