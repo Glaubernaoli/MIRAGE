@@ -20,7 +20,7 @@
 Este projeto se baseia em um conjunto de modelos preditivos para encontrar o tempo de sobrevida de pacientes com câncer de pulmão de células não pequenas. Dessa forma, foi necessário o uso de um modelo classificador binário, que prevê se o paciente foi curado ou não, e caso não tenha sido curado, um modelo regressor, que prevê o tempo, em meses, de sobrevida deste paciente. O objetivo desse trabalho é auxiliar na urgência/intensificação de tratamento em pacientes com menos tempo de sobrevida.
 </div>
 
-<h2 align="left"> 🫀 Atributos </h2>
+<h2 align="left"> 🫁 Atributos </h2>
 
 <div align="justify">
 
