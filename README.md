@@ -68,7 +68,7 @@ Para o modelo regressor floresta aleatória:
 
 `Escolha de hiperparâmetros e atributos para o modelo classificador`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo classificador binário, onde ele prevê se o paciente foi curado, ou não.
 
-`Escolha de  hiperparâmetros e atributos para o modelo regresor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
+`Escolha de  hiperparâmetros e atributos para o modelo regressor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
 
 `Predição de sobrevida - A história`: Neste notebook, apresentamos os melhores modelos treinados e teste de aplicação em um grupo pertencente no limiar de meses entre 53 e 62.
 
