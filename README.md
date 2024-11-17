@@ -64,7 +64,7 @@ Para o modelo regressor floresta aleatória:
 
 `msk_met_2021_clinical_data (1) 1.tsv`: Dataset usado no trabalho, retirado da referência[<sub>1</sub>](10.1016/j.cell.2022.01.003)<br>
  
-`Estudando o Target`: Neste notebook, estudamos o dataset escolhido para a realização dos modelos. quais colunas usaremos como atributos e qual target escolhido.
+`Estudando o Target`: Neste notebook, estudamos as colunas do dataset com potencial de serem targets para a realização dos modelos. Ao ver que as colunas presentes no dataset eram organizadas de forma diferente do que os modelos buscam, novas colunas foram criadas.
 
 `Escolha de hiperparâmetros e atributos para o modelo classificador`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo classificador binário, onde ele prevê se o paciente foi curado, ou não.
 
