@@ -62,7 +62,7 @@ Para o modelo regressor floresta aleatória:
 
 <div align="justify">
 
-`msk_met_2021_clinical_data (1) 1.tsv`: Dataset usado no trabalho, retirado da referência[<sub>1</sub>](10.1016/j.cell.2022.01.003)<br>
+`msk_met_2021_clinical_data (1) 1.tsv`: Dataset usado no trabalho, retirado da referência 1
  
 `Estudando o Target`: Neste notebook, estudamos as colunas do dataset com potencial de serem targets para a realização dos modelos. Ao ver que as colunas presentes no dataset eram organizadas de forma diferente do que os modelos buscam, novas colunas foram criadas.
 
@@ -91,9 +91,9 @@ Para o modelo regressor floresta aleatória:
 
 <div align="justify">
 
-`Optuna`: Esta ferramenta é extremamente útil para encontrar os melhores hiperparâmetros dos modelos desenvolvidos. Pela busca adaptativa, essa ferramenta altera esses hiperparâmetros automaticamente, podendo, assim, encontrar o melhor modelo.
+`Optuna`: Esta ferramenta é extremamente útil para encontrar os melhores hiperparâmetros dos modelos desenvolvidos. Pela busca adaptativa, essa ferramenta altera esses hiperparâmetros automaticamente, podendo, assim, encontrar o melhor modelo. 3
 
-`Fator de Inflação de Variância (VIF)`: É uma ferramenta para a análise da multicolinearidade dos atributos, sendo importante para filtrar os que apresentam alta colinearidade. A multicolinearidade influencia negativamente para a performance do modelo, pois atrapalha a interpretação dos coeficientes, aumentando o erro posterior.
+`Fator de Inflação de Variância (VIF)`: É uma ferramenta para a análise da multicolinearidade dos atributos, sendo importante para filtrar os que apresentam alta colinearidade. A multicolinearidade influencia negativamente para a performance do modelo, pois atrapalha a interpretação dos coeficientes, aumentando o erro posterior. 4
 
 `Root Mean Square Error (RMSE)`: Métrica usada para avaliar um modelo de regressão, no nosso trabalho a floresta aleatória. Sendo calculada pela raiz quadrada da média dos quadrados dos erros, oferecendo uma medida entre os valores preditos e verdadeiros.
 
