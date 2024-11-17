@@ -4,7 +4,7 @@
 
 </div>
 
-<h1 align="center"> Previsão de Sobrevida de Pacientes com Câncer de Pulmão: Integração de Modelos Classificador e Regressivo </h1>
+<h1 align="center"> Previsão de Sobrevida de Pacientes com Câncer de Pulmão: Integração de Modelos Binário e Regressivo </h1>
 
 ### Projeto Aprendizado de Máquina, Turma 2024
 ### Colaboradores: Glauber Nascimento, Rafael Anis e Maria Emily Gomes  
