@@ -87,7 +87,7 @@ Para o modelo regressor floresta aleatória:
 
 </div>
 
-<h2 align="left"> 🧰 ferramentas Usadas </h2>
+<h2 align="left"> 🧰 Ferramentas Usadas </h2>
 
 <div align="justify">
 
