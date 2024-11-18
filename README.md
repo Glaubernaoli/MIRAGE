@@ -11,7 +11,7 @@
 ### Aprendizado de Máquina -  Prof. Dr. Daniel Cassar
 
  <h4 align="center"> 
-    🚧  Projeto em construção 🚧
+     Projeto Concluído ✅
 </h4>
 
 <h2 align="left"> 💡 Descrição </h2>
