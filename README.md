@@ -66,9 +66,9 @@ Para o modelo regressor floresta aleatória:
  
 `Estudando o Target`: Neste notebook, estudamos as colunas do dataset com potencial de serem targets para a realização dos modelos. Ao ver que as colunas presentes no dataset eram organizadas de forma diferente do que os modelos buscam, novas colunas foram criadas.
 
-`Escolha de hiperparâmetros e atributos para o modelo classificador`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo classificador binário, onde ele prevê se o paciente foi curado, ou não.
+`Escolhendo o modelo classificador`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo classificador binário, onde ele prevê se o paciente foi curado, ou não.
 
-`Escolha de  hiperparâmetros e atributos para o modelo regressor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
+`Escolha o modelo regressor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
 
 `Predição de sobrevida - A história`: Neste notebook, apresentamos, de forma resumida, o projeto final como um todo. Apresentando os melhores modelos treinados e teste de aplicação em um grupo pertencente no limiar de meses entre 55 e 60.
 
