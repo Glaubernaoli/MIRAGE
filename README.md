@@ -62,7 +62,7 @@ Para o modelo regressor floresta aleatória:
 
 <div align="justify">
 
-`msk_met_2021_clinical_data (1) 1.tsv`: Dataset usado no trabalho, retirado da referência 1
+`msk_met_2021_clinical_data (1).tsv`: Dataset usado no trabalho, retirado da referência 1
  
 `Estudando o Target`: Neste notebook, estudamos as colunas do dataset com potencial de serem targets para a realização dos modelos. Ao ver que as colunas presentes no dataset eram organizadas de forma diferente do que os modelos buscam, novas colunas foram criadas.
 
@@ -70,7 +70,7 @@ Para o modelo regressor floresta aleatória:
 
 `Escolha de  hiperparâmetros e atributos para o modelo regressor`: Neste notebook, buscamos, por meio do Optuna, os melhores hiperparâmetos e atributos para o modelo regressor, onde ele prevê o tempo de sobrevida do paciente, em meses. <br> 
 
-`Predição de sobrevida - A história`: Neste notebook, apresentamos os melhores modelos treinados e teste de aplicação em um grupo pertencente no limiar de meses entre 53 e 62.
+`Predição de sobrevida - A história`: Neste notebook, apresentamos, de forma resumida, o projeto final como um todo. Apresentando os melhores modelos treinados e teste de aplicação em um grupo pertencente no limiar de meses entre 55 e 60.
 
 
 </div>
